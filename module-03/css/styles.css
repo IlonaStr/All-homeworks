@@ -5,7 +5,7 @@ body {
 }
 
 .contents {
-width: 1000px;
+width: 900px;
 margin: 0 auto;
 }
 
@@ -52,6 +52,9 @@ margin: 0 auto;
     max-width: 420px;
     margin-bottom: 30px;
 }
+.content-item:nth-child(2n){
+    margin-right: 0;
+    }
 
 .content-item p.under-picture {
     margin: 0;
@@ -77,9 +80,13 @@ margin: 0 auto;
 .load {
     text-align: center;
     margin: 0 auto 70px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
     display: block;
     font-size: 20px;
     border: 1px solid #626262;
     padding: 20px 35px;
     background: #ffffff;
 }
+.load:hover {
+    color: #6cc2f7;
