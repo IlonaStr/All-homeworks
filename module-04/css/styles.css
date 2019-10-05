@@ -144,7 +144,7 @@ font-weight: 700;
 
 .product-icon {
 display: block;
-width: 100%;
+/* width: 100%; */
 }
 
 .product_name {
