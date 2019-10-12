@@ -8,9 +8,15 @@ body {
     clear: both;
 }
 
-.wrapper {
+/* .wrapper {
     width: 1600px;
     margin: 0 auto;
+} */
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    display: block;
 }
 
 .logo {
@@ -58,25 +64,25 @@ body {
     margin-right: 13px;
 }
 
-/* .slider_part {
-    padding-top: 38px;
-} */
+.header {
+    /* width: 1110px;
+    height: 508px; */
+    margin: 0;
+    padding: 0;
+}
 
-.slider_image {
-    background-size: cover;
-    width: 1648px;
-    height: 600px;
-    object-fit: cover;
-    background: #000;
+.background-image {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1110px;
+    height: 508px;
 }
 
 .slides {
     position: relative;
-    width: 1170px;
-    height: 600px;
-    /* background-image: url(img/bg.jpg);
-    background-repeat: no-repeat;
-    */
+    width: 1110px;
+    height: 508px;
 }
 
 .slider_control {
@@ -86,8 +92,14 @@ display: inline-block;
 width: 104px;
 height: 106px;
 background-color: rgba(79, 156, 139, 0.5);
-top: 316px;
+top: 250px;
 z-index: 1;
+}
+
+.slider_part {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 508px;
 }
 
 .pe-7s-angle-left {
@@ -103,7 +115,7 @@ z-index: 1;
 }
 
 .slider_control_pr {
-left: 245px;
+left: 200px;
 transform: translateY(-50%);
 }
 
@@ -112,7 +124,7 @@ background-color: #1abc9c;
 }
 
 .slider_control_nx {
-right: 245px;
+right: 200px;
 transform: translateY(-50%);
 }
 
@@ -120,20 +132,20 @@ transform: translateY(-50%);
 background-color: #1abc9c;
 }
 
-.slides_items {
+/* .slides_items {
     position: relative;
-}
+} */
 
 .slides_descr {
     position: absolute;
-    bottom: 285px;
-    right: 220px;
-    left: 435px;
+    bottom: 250px;
+    right: 150px;
+    /* left: 435px; */
     width: 760px;
 }
 
 .slider_heading {
-    font-size: 60px;
+    font-size: 57px;
     text-transform: uppercase;
     font-weight: 900;
     color: #ffffff;
@@ -177,7 +189,7 @@ background-color: #1abc9c;
 .collection {
     float: left;
     width: 255px;
-    margin: 0px 30px 0px 12px;
+    margin: 0px 30px 0px 0px;
     position: relative;
 }
 
@@ -245,7 +257,7 @@ background-color: #1abc9c;
         width: 235px;
         background-color: #737373;
         opacity: 0;
-        border: 10px solid rgba(255,255,255,0.7);
+        border: 10px solid rgba(255,255,255,0.9);
         background-color: rgba(0,0,0,0.549);
     }
 
@@ -326,11 +338,6 @@ background-color: #1abc9c;
         padding: 6px 12px 0px 0px;
         }
         
-        .additional {
-        width: 100%;
-        margin: 0 auto;
-        }
-
         .footer_info {
             font-size: 16px;
             background-color: #323232;
