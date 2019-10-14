@@ -11,7 +11,6 @@ body {
 .container {
     width: 1110px;
     margin: 0 auto;
-    display: block;
 }
 
 .logo {
@@ -70,9 +69,15 @@ body {
     background-image: url("../img/bg.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 1110px;
     height: 508px;
+    background-size: cover;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
 
 .slides {
     position: relative;
@@ -92,9 +97,7 @@ z-index: 1;
 }
 
 .slider_part {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    height: 508px;
+height: 508px;
 }
 
 .pe-7s-angle-left {
