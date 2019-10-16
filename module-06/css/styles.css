@@ -1,7 +1,6 @@
 .container {
 width: 1200px;
 margin: 0 auto;
-width: 100%;
 }
 
 .logo {
@@ -10,7 +9,6 @@ color: #95e1d3;
 font-size: 30px;
 font-weight: 700;
 text-decoration: none;
-padding-bottom: 25px;
 }
 
 .site-navigation {
@@ -60,15 +58,6 @@ display: block;
 }
 
 .heading {
-font-family: 'Kaushan Script', cursive;
-font-size: 24px;
-color: #000;
-font-weight: 400;
-text-align: center;
-margin-top: 90px;
-}
-
-.subheading {
 font-size: 30px;
 color: #000;
 font-family: 'Montserrat', sans-serif;
@@ -78,7 +67,18 @@ text-transform: uppercase;
 padding-top: 25px;
 margin-bottom: 60px;
 }
-.subheading::after {
+
+.subheading {
+font-family: 'Kaushan Script', cursive;
+font-size: 24px;
+color: #000;
+font-weight: 400;
+text-align: center;
+padding-top: 90px;
+padding-bottom: 22px;
+}
+
+.heading::after {
 content: "";
 display: block;
 width: 60px;
@@ -155,8 +155,7 @@ font-family: 'Montserrat', sans-serif;
 margin-left: 25px;
 text-transform: uppercase;
 margin-bottom: 20px;
-position: relative;
-left: 9%;
+padding-left: 30px;
 display: inline-block;
 }
 
@@ -165,12 +164,41 @@ font-size: 15px;
 line-height: 24px;
 color: #b3b3b3;
 font-family: 'Roboto', sans-serif;
-margin-left: 60px;
-width: 260px;
+padding-left: 60px;
 }
 
 .heading_part {
 text-align: center;
+}
+
+.subheading1 {
+font-size: 30px;
+color: #000;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+padding-top: 25px;
+margin-bottom: 60px;
+}
+    
+.heading1 {
+font-family: 'Kaushan Script', cursive;
+font-size: 24px;
+color: #000;
+font-weight: 400;
+text-align: center;
+padding-top: 90px;
+padding-bottom: 22px;
+}
+    
+.subheading1::after {
+content: "";
+display: block;
+width: 60px;
+height: 3px;
+margin: 43px auto 0;
+background-color: #f38181;
 }
 
 .subtitle {
@@ -185,7 +213,7 @@ text-align: center;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-margin-top: 93px;
+padding-top: 93px;
 }
 
 .team-list {
@@ -222,7 +250,7 @@ text-align: center;
 .gradient {
 width: 380px;
 height: 470px;
-background-image: linear-gradient(#ee8a8a, #edd587);
+background-image: linear-gradient(rgba(238,137,137,0.9), rgba(238,214,135,0.9));
 position: absolute;
 top: 0;
 box-shadow: 10px 10px #95e1d3;
@@ -231,7 +259,7 @@ opacity: 0;
 }
 
 .pic:hover > .gradient {
-opacity: 0.9;
+opacity: 1;
 transform: translate(-10px, -10px);
 transition: all 200 ms linear;
 }
@@ -275,7 +303,6 @@ color: #f6a0a0;
 }
 
 .additional_info {
-margin-top: 80px;
 border: 1px solid #e5e5e5;
 display: flex;
 justify-content: space-between;

@@ -52,7 +52,7 @@ margin: 0 auto;
 
 .navigation-list-item {
     float: right;
-    display: inline-block;
+    display: block;
     font-size: 14px;
 }
 
@@ -221,8 +221,8 @@ width: 55px;
     display: block;
     font-family: 'Roboto', Arial, sans-serif;
     background-color: #4ec6ab;
-        width: 160px;
-        height: 51px;
+    width: 160px;
+    height: 51px;
     font-size: 16px;
     color: #fff;
     padding: 18px 40px 20px 40px;

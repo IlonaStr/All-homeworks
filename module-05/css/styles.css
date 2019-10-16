@@ -43,6 +43,10 @@ body {
     float: left;
     display: block;
     font-size: 14px;
+    margin-right: 28px;
+}
+.navigation-list-item li:not(:last-child) {
+    margin-right: 0px;
 }
 
 .navigation-list-link {
