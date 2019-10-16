@@ -87,53 +87,60 @@ margin: 43px auto 0;
 background-color: #f38181;
 }
 
-.background-image0 {
-background-image: url("../img/ALARM.png");
-position: absolute;
-display: inline-block;
+.img0::after {
+content: "";
+background: url("../img/ALARM.png");
 background-repeat: no-repeat;
+position: absolute;
 width: 34px;
 height: 34px;
+left: 0;
 }
-.background-image1 {
+
+.img1::after {
+content: "";
 background-image: url("../img/LINE GRAPH.png");
 background-repeat: no-repeat;
 position: absolute;
-display: inline-block;
 width: 34px;
 height: 34px;
+left: 0;
 }
-.background-image2 {
+.img2::after {
+content: "";
 background-image: url("../img/COMPUTER _ OK.png");
 background-repeat: no-repeat;
 position: absolute;
-display: inline-block;
 width: 34px;
 height: 34px;
+left: 0;
 }
-.background-image3 {
+.img3::after {
+content: "";
 background-image: url("../img/BOOK 2.png");
 background-repeat: no-repeat;
 position: absolute;
-display: inline-block;
 width: 34px;
 height: 34px;
+left: 0;
 }
-.background-image4 {
+.img4::after {
+content: "";
 background-image: url("../img/HOME.png");
 background-repeat: no-repeat;
 position: absolute;
-display: inline-block;
 width: 34px;
 height: 34px;
+left: 0;
 }
-.background-image5 {
+.img5::after {
+content: "";
 background-image: url("../img/IMAGE.png");
 background-repeat: no-repeat;
 position: absolute;
-display: inline-block;
 width: 34px;
 height: 34px;
+left: 0;
 }
 
 .offers {
