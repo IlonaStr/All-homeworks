@@ -96,7 +96,8 @@ font-family: 'Montserrat';
 font-weight: 700;
 text-transform: uppercase;
 text-align: center;
-padding-bottom: 23px;
+margin-bottom: 23px;
+line-height: 75px;
   }
 
 .subheading {
@@ -106,7 +107,7 @@ font-family: 'Merriweather';
 font-weight: 400;
 font-style: italic;
 text-align: center;
-padding-bottom: 100px;
+margin-bottom: 100px;
   }
 
   .part_one {
@@ -184,7 +185,7 @@ color: #ffffff;
 font-family: 'Montserrat';
 font-weight: 700;
 padding-top: 108px;
-padding-bottom: 25px;
+margin-bottom: 25px;
 text-align: center;
 }
 
@@ -197,10 +198,8 @@ font-style: italic;
 text-align: center;
 }
 
-.part_two {
+.form_sector {
 background-image: url('../img/Background.png');
-height: 678px;
-width: 1400px;
 }
 
 form {
@@ -210,7 +209,7 @@ form {
 .form {
 display: flex;
 justify-content: space-between;
-margin-top: 75px;
+padding-top: 75px;
 }
 
 .form_1part input {
@@ -229,10 +228,6 @@ text-indent: 18px;
 
 .form_1part {
 width: 455px;
-height: 210px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
 }
 
 .form_2part textarea {
