@@ -1,4 +1,14 @@
-    .container {
+html{
+  box-sizing:border-box;
+  }
+
+*,
+*::before,
+*::after{
+box-sizing: inherit;
+}
+
+.container {
     width: 940px;
     margin: 0 auto;
     }
@@ -209,6 +219,7 @@ form {
 .form {
 display: flex;
 justify-content: space-between;
+flex-wrap: wrap;
 padding-top: 75px;
 }
 
@@ -254,8 +265,11 @@ text-align: center;
 text-transform: uppercase;
 border-radius: 5px;
 border: none;
-text-indent: 50px;
+/* text-indent: 50px; */
 padding: 25px 40px;
+display: flex;
+align-items: center;
+cursor: pointer;
 }
 
 input:valid, textarea:valid {
@@ -264,4 +278,8 @@ input:valid, textarea:valid {
 
 input:invalid, textarea:invalid {
   outline-color: red;
+}
+
+.button input:hover {
+background-color: #777777;
 }
