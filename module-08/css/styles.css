@@ -10,7 +10,7 @@ html{
 
 .container {
     margin: 0 auto;
-    max-width: 940px;
+    max-width: 920px;
 }
 
 @font-face {
@@ -109,8 +109,6 @@ html{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 160px;
-        padding-bottom: 157px;
         margin: auto;
     }
     
@@ -181,6 +179,7 @@ html{
             font-weight: 300;
             text-align: center;
             padding-bottom: 25px;
+            margin: auto;
         }
 
         .partner_item {
@@ -211,25 +210,25 @@ html{
             background-position: center;
         }
 
-        .first {
+        .tvset {
             background-image: url("../img/icon1.png");
             background-color: #ff4e50;
             background-repeat: no-repeat;
         }
 
-        .second {
+        .cup {
             background-image: url("../img/icon2.png");
             background-color: #1cd7ad;
             background-repeat: no-repeat;
         }
 
-        .third {
+        .beaker {
             background-image: url("../img/icon3.png");
             background-color: #ffa507;
             background-repeat: no-repeat;
         }
 
-        .fourth {
+        .paperplane {
             background-image: url("../img/icon4.png");
             background-color: #4e73db;
             background-repeat: no-repeat;
@@ -247,7 +246,7 @@ html{
             text-align: center;
             background-color: #fff;
             transition: 500ms;
-            margin: 50px auto 73px;
+            margin: 50px auto;
         }
 
         .partner_button:hover {
