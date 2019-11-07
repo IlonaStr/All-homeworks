@@ -10,7 +10,8 @@ html{
 
 .container {
     margin: 0 auto;
-    max-width: 920px;
+    padding: 0 15px;
+    width: 320px;
 }
 
 @font-face {
@@ -62,7 +63,7 @@ html{
     font-size: 20px;
     letter-spacing: 1px;
     color: #ffffff;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: center;
     text-decoration: none;
@@ -108,8 +109,10 @@ html{
     .navigation_list {
         display: flex;
         justify-content: space-between;
+        flex-direction: row-reverse;
         align-items: center;
         margin: auto;
+        padding-bottom: 111px;
     }
     
     .promo_title {
@@ -183,6 +186,7 @@ html{
         }
 
         .partner_item {
+            width: 290px;
             text-align: center;
         }
 
@@ -255,8 +259,23 @@ html{
         }
 
         @media (min-width: 768px) {
+            .container {
+                width: 768px;
+            }
+
             .hdr {
                 flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .navigation_list {
+                padding-bottom: 150px;
+            }
+
+            .site_navigation {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
             }
 
             .promo_title {
@@ -281,6 +300,9 @@ html{
         }
 
         @media (min-width: 940px) {
+            .container {
+                width: 920px;
+            }
             .partners_list {
                 display: flex;
                 justify-content: space-between;
