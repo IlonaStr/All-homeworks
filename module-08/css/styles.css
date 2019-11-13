@@ -100,6 +100,7 @@ html{
 
     .hdr {
         padding-top: 50px;
+        padding-bottom: 111px;
         display: flex;
         justify-content: space-around;
         flex-direction: row-reverse;
@@ -112,7 +113,6 @@ html{
         flex-direction: row-reverse;
         align-items: center;
         margin: auto;
-        padding-bottom: 111px;
     }
     
     .promo_title {
@@ -250,7 +250,11 @@ html{
             text-align: center;
             background-color: #fff;
             transition: 500ms;
-            margin: 50px auto;
+            margin: auto;
+        }
+
+        .partners_section {
+            padding-bottom: 50px;
         }
 
         .partner_button:hover {
@@ -266,9 +270,6 @@ html{
             .hdr {
                 flex-direction: row;
                 flex-wrap: wrap;
-            }
-
-            .navigation_list {
                 padding-bottom: 150px;
             }
 
