@@ -9,16 +9,14 @@ html{
   }
 
 .container {
-    /* margin: 0;
-    padding: 0;
-    text-align:center; */
-      width: 100%;
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
+text-align:center;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
   }
-}
+
 
 @font-face {
     font-family: 'Montserrat';
@@ -65,7 +63,7 @@ html{
 }
 .hdr {
   padding-top: 50px;
-  padding-bottom: 111px;
+  padding-bottom: 40px;
 }
 
 .logo {
@@ -277,11 +275,9 @@ html{
     padding-top: 0;
     }
 
-    /* .site_navigation {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    } */
+    .hdr {
+      padding-bottom: 111px;
+    }
 
     .promo_title {
     font-size: 52px;
