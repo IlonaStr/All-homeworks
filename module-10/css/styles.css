@@ -65,11 +65,12 @@ display: -ms-flexbox;
 display: flex;
 -webkit-box-pack: justify;
 -ms-flex-pack: justify;
-display: flex;
+margin: 0;
+padding: 0;
 list-style: none;
 }
 
-.navigation-list-item {
+.navigation-list__item {
 display: block;
 font-size: 14px;
 font-family: 'Montserrat', sans-serif;
@@ -80,7 +81,7 @@ color: #fce38a;
 transition: all 200ms linear;
 }
 
-.navigation-list-item :after {
+.navigation-list__item :after {
 content: "";
 display: block;
 width: 100%;
@@ -90,12 +91,12 @@ background-color: #fce38a;
 opacity: 0;
 }
     
-.navigation-list-item a:hover:after {
+.navigation-list__item a:hover:after {
 background-color: #fce38a;
 opacity: 1;
 }
  
-.navigation-list-link {
+.navigation-list__link {
 text-decoration: none;
 padding: 23px;
 color: #fff;
@@ -115,28 +116,27 @@ max-width: 821px;
 margin: 0 auto;
 padding-bottom: 230px;
 }
-    
 
-.headline{
+.afterheader__headline{
 font-size: 72px;
 color: #ffffff;
 font-family: "Kaushan Script";
 font-weight: 400;
 text-align: center;
 padding-top: 160px;
+margin: 0 0 40px 0;
 }
 
-.subheadline {
+.afterheader__subheadline {
 font-size: 150px;
 color: #ffffff;
 font-family: "Montserrat";
 font-weight: 700;
 text-align: center;
 text-transform: uppercase;
-padding-top: 40px;
 }
 
-.btn {
+.afterheader__btn {
 display: block;
 font-size: 14px;
 color: #ffffff;
@@ -155,7 +155,7 @@ color: #aa2b2b;
 background-color: rgba(244,140,130,0.6);
 }
     
-.services__subheading {
+.services__heading {
 font-size: 30px;
 color: #000;
 font-family: 'Montserrat', sans-serif;
@@ -165,7 +165,7 @@ text-transform: uppercase;
 margin-bottom: 60px;
 }
     
-.services__heading {
+.services__subheading {
 display: block;
 font-family: 'Kaushan Script', cursive;
 font-size: 24px;
@@ -176,7 +176,7 @@ padding-top: 90px;
 padding-bottom: 22px;
 }
     
-.services__subheading::after {
+.services__heading::after {
 content: "";
 display: block;
 width: 60px;
@@ -199,13 +199,13 @@ list-style: none;
 padding: 0;
 }
         
-.services__offers-item {
+.services__item {
 width: 320px;
 margin-bottom: 95px;
 position: relative;
 }
         
-.services__offers-name {
+.services__name {
 font-size: 14px;
 color: #000;
 font-family: 'Montserrat', sans-serif;
@@ -216,7 +216,7 @@ padding-left: 30px;
 display: inline-block;
 }
         
-.services__offers-descr {
+.services__descr {
 font-size: 15px;
 line-height: 24px;
 color: #b3b3b3;
@@ -224,7 +224,7 @@ font-family: 'Roboto', sans-serif;
 padding-left: 60px;
 }
     
-.services__item-icon {
+.services__icon {
 width: 32px;
 height: 32px;
 fill: #95e1d3;
@@ -353,6 +353,12 @@ text-align: center;
     right: 79px;
 }
 
+a {
+    position: relative;
+    top: 15px;
+    left: 13px;
+}
+
 .team__icons-item {
     width: 55px;
     height: 56px;
@@ -376,7 +382,8 @@ fill: #ef8b8a;
 }
  
     .team__icons-item:hover {
-    background-color: #95e1d3;
+    fill: #fff;
+    background-color: #f38181;
     }
     
     .additional_info {
