@@ -381,9 +381,12 @@ width: 27px;
 fill: #ef8b8a;
 }
  
+    .team__icons-item:hover {
+    background-color: #f38181;
+    }
+
     .icons-item:hover {
     fill: #fff;
-    background-color: #f38181;
     }
     
     .additional_info {
