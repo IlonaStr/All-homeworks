@@ -384,6 +384,10 @@ fill: #ef8b8a;
     .team-icons__item:hover {
     background-color: #f59d9d;
     }
+
+    .icons-item:hover {
+        fill: #fff;
+    }
   
     .additional_info {
     border: 1px solid #e5e5e5;
