@@ -347,6 +347,8 @@ text-align: center;
             justify-content: space-between;
     width: 223px;
     position: absolute;
+    align-items: center;
+    justify-content: center;
     top: 206px;
     right: 79px;
 }
@@ -363,6 +365,8 @@ text-align: center;
     -o-transition: 200ms;
     transition: 200ms;
     opacity: 1;
+    align-items: center;
+    justify-content: center;
 }
     
 .icons-item {
