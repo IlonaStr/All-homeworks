@@ -227,6 +227,7 @@ padding-left: 60px;
 .services__item-icon {
 width: 32px;
 height: 32px;
+fill: #95e1d3;
 }
        
 .team__heading {
@@ -367,6 +368,7 @@ text-align: center;
 .icons-item {
 height: 27px;
 width: 27px;
+fill: #ef8b8a;
 }
  
     .team__icons-item:hover {
