@@ -73,15 +73,18 @@ list-style: none;
 .navigation-list__item {
 display: block;
 font-size: 14px;
+color: #fff;
 font-family: 'Montserrat', sans-serif;
+border-bottom: rgba(255, 255, 255, 0) 3px solid;
 }
 
-.navigation-list-item a:hover {
+.navigation-list__item a:hover {
 color: #fce38a;
 transition: all 200ms linear;
+border-bottom: #fce38a 3px solid;
 }
 
-.navigation-list__item :after {
+/* .navigation-list__item :after {
 content: "";
 display: block;
 width: 100%;
@@ -94,7 +97,7 @@ opacity: 0;
 .navigation-list__item a:hover:after {
 background-color: #fce38a;
 opacity: 1;
-}
+} */
  
 .navigation-list__link {
 text-decoration: none;
